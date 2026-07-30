@@ -1,0 +1,43 @@
+# Generated molecular data and model artifacts (the public repository is code-only)
+/data/
+/fragmented_data/
+/checkpoints/
+/ckpt/
+*.pt
+*.pth
+*.pkl
+*.sdf
+*.xyz
+
+# Experiment output
+/outputs/
+/multirun/
+/runs/
+/results/
+/eval_outputs/
+/inference_outputs/
+/wandb/
+/slurm_output/
+slurm-*.out
+
+# Python/build/editor state
+.ipynb_checkpoints/
+*.orig
+*.rej
+*~
+.DS_Store
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+build/
+dist/
+.venv/
+.env
+.idea/
+.vscode/
+*.swp

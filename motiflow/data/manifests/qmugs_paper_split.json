@@ -1,0 +1,73 @@
+{
+  "algorithm": "pandas.qcut(q=20) followed by sklearn.model_selection.train_test_split",
+  "chunk_size": 1000,
+  "dataset": "qmugs",
+  "molecular_weight_bin_counts": {
+    "0": 33351,
+    "1": 33243,
+    "10": 33296,
+    "11": 33295,
+    "12": 33292,
+    "13": 33295,
+    "14": 33295,
+    "15": 33296,
+    "16": 33296,
+    "17": 33295,
+    "18": 33298,
+    "19": 33293,
+    "2": 33307,
+    "3": 33286,
+    "4": 33357,
+    "5": 33254,
+    "6": 33272,
+    "7": 33308,
+    "8": 33289,
+    "9": 33293
+  },
+  "random_seed": 42,
+  "reference_environment": {
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.7.2"
+  },
+  "schema_version": "1.0",
+  "source": {
+    "average_conformers_per_molecule": 2.992868416349933,
+    "conformer_count": 1992984,
+    "filename": "summary.csv",
+    "molecule_count": 665911,
+    "sha256": "b6d7b54fa4d290ceace81c644f20b2ddfd68c21ecb1f4b5c00e8913cd608bcfd"
+  },
+  "split_unit": "chembl_id",
+  "splits": {
+    "test": {
+      "chunk_count": 11,
+      "conformer_count": 30009,
+      "molecule_count": 10023,
+      "ordered_ids_sha256": "47360c68901e664f75266703d9e72141a533afbf46904683bd5af644f4d18ab1"
+    },
+    "train": {
+      "chunk_count": 101,
+      "conformer_count": 299990,
+      "molecule_count": 100238,
+      "ordered_ids_sha256": "4decd7e7c8f1d6a34d59b0a8a5e591c67901f7608beb333308467dc7e249c08c"
+    },
+    "val": {
+      "chunk_count": 11,
+      "conformer_count": 29988,
+      "molecule_count": 10023,
+      "ordered_ids_sha256": "4884ea592ec094caa521d2c6ac12f3ebf59d4113483334b158f588ea7077a626"
+    }
+  },
+  "stratification": {
+    "column": "mw",
+    "method": "pandas.qcut",
+    "quantiles": 20
+  },
+  "target_conformer_counts": {
+    "test": 30000,
+    "train": 300000,
+    "val": 30000
+  },
+  "unused_molecule_count": 545627
+}

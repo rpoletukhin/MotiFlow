@@ -1,0 +1,23 @@
+# Training entrypoint. Scientific values live in the selected groups.
+defaults:
+  - fragmented_data@data: qm9_rings_alpha_01
+  - flow: qm9
+  - model: ipa
+  - conditioning: none
+  - training: qm9
+  - loss: default
+  - tracking: wandb
+  - optional experiment: null
+  - _self_
+
+seed: 0
+runtime:
+  device: auto
+  torch_num_threads: 1
+  matmul_precision: medium
+
+hydra:
+  run:
+    dir: outputs/hydra/${now:%Y-%m-%d}/${now:%H-%M-%S}
+  job:
+    chdir: false

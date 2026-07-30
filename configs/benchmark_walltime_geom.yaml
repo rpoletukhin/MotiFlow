@@ -1,0 +1,17 @@
+defaults:
+  - fragmented_data@data: geom_rings_alpha_01
+  - flow: geom
+  - model: ipa
+  - conditioning: none
+  - benchmark: geom
+  - _self_
+
+seed: 0
+runtime:
+  device: auto
+
+hydra:
+  run:
+    dir: outputs/hydra/${now:%Y-%m-%d}/${now:%H-%M-%S}
+  job:
+    chdir: false

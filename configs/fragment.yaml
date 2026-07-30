@@ -1,0 +1,28 @@
+defaults:
+  - dataset: qm9
+  - fragmentation: rings
+  - _self_
+
+method_version: motiflow-v1
+data_root: ./data
+aligned_root: ./data/preprocessed
+output_root: ./data/fragmented
+output_dir: null
+
+# Alpha is the minimum percentage of training-set motif occurrences.
+alpha_threshold: 0.1
+rmsd_thresh: 1.0
+max_dev_thresh: 1.0
+max_automorphisms: 4096
+max_failure_fraction: 0.01
+output_shard_size: 10000
+unknown_class_policy: skip
+resume_training: true
+
+reconstruction_validation:
+  enabled: true
+  batch_size: 1024
+
+hydra:
+  job:
+    chdir: false

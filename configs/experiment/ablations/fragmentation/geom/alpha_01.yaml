@@ -1,0 +1,10 @@
+# @package _global_
+# NeurIPS Tables 11--13 and Figures 10--12.
+defaults:
+  - override /fragmented_data@data: geom_rings_alpha_01
+  - override /flow: geom
+  - override /conditioning: none
+  - override /training: geom_fragmentation
+
+training:
+  name: geom_fragmentation_alpha_01

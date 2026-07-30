@@ -1,0 +1,13 @@
+checkpoint_path: null
+num_samples: 16
+batch_size: 128
+# Set a positive integer for fixed-size sampling, or null to sample the
+# empirical training fragment-count distribution.
+fragment_count: null
+count_source_path: null
+# Required for conditional profiles. Historical paper task files are accepted.
+condition_path: null
+evaluate_condition: false
+num_steps: ${data.num_t}
+keep_trajectory: false
+output_path: outputs/samples/generated.pt

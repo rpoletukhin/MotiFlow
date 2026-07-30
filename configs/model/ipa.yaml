@@ -1,0 +1,29 @@
+model_name: ipa
+node_embed_size: 256
+edge_embed_size: 128
+dropout: 0.0
+_do_fm_cat: ${flow.flow_cat}
+conditioning: ${conditioning}
+with_triangl_upd: true
+use_self_conditioning: true
+sc_training_prob: 0.5
+rbf_stop: ${data.rbf_stop}
+embed:
+  vocab_size: ${data.vocab_size}
+  max_dim: ${data.K_max}
+  index_embed_size: 128
+  rbf_dim: 64
+  ipa_rbf_stop: ${data.ipa_rbf_stop}
+ipa:
+  do_last_edge_update: true
+  c_s: ${model.node_embed_size}
+  c_z: ${model.edge_embed_size}
+  c_hidden_per_head: 64
+  c_skip: 64
+  no_heads: 8
+  no_qk_points: 8
+  no_v_points: 12
+  seq_tfmr_num_heads: 4
+  seq_tfmr_num_layers: 2
+  num_blocks: 4
+  coordinate_scaling: ${flow.r3.coordinate_scaling}

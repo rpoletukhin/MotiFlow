@@ -1,0 +1,14 @@
+dataset_name: geom
+method_version: motiflow-v1
+processed_data_dir: data/fragmented/geom/alpha_0p1
+library_path: ${data.processed_data_dir}/fragment_library.pt
+vocab_size: null
+max_frag_size: 17
+K_max: 9
+S_max: null
+use_frame_augmentation: true
+conditioning_type: ${conditioning.type}
+num_t: 100
+coordinate_scaling: 0.457
+ipa_rbf_stop: 10.0
+rbf_stop: 30.0

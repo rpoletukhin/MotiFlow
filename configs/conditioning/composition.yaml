@@ -1,0 +1,4 @@
+type: composition
+num_atom_types: 5
+atom_type_embed_dim: 64
+composition_hidden_dim: 64

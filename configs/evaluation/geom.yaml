@@ -1,0 +1,8 @@
+dataset: geom
+generated_paths: []
+library_path: data/fragmented/geom/alpha_0p1/fragment_library.pt
+reference_path: data/preprocessed/geom/train
+compute_properties: true
+compute_strain: true
+save_sdf: true
+output_dir: outputs/evaluation/geom

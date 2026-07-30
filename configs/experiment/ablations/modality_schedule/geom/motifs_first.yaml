@@ -1,0 +1,17 @@
+# @package _global_
+# NeurIPS Table 9: motif identities resolve before geometry.
+defaults:
+  - override /fragmented_data@data: geom_rings_alpha_01
+  - override /flow: geom
+  - override /conditioning: none
+  - override /training: geom
+
+training:
+  name: geom_motifs_first
+flow:
+  nu_se3: 2.0
+  nu_cat: 1.0
+  cat:
+    min_temperature: 1.0
+    max_temperature: 1.0
+    stochasticity: 0.0

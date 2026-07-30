@@ -1,0 +1,12 @@
+backend: wandb
+enabled: true
+project: motiflow
+entity: null
+name: ${training.name}
+group: null
+tags: []
+job_type: train
+dir: outputs/wandb
+mode: online
+id: null
+resume: allow

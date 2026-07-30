@@ -1,0 +1,4 @@
+type: structure
+num_atom_types: 5
+fingerprint_dim: 1024
+structure_hidden_dims: [512, 256]

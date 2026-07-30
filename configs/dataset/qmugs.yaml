@@ -1,0 +1,17 @@
+name: qmugs
+root: ${oc.env:MOTIFLOW_QMUGS_ROOT}
+splits:
+  - train
+  - val
+  - test
+summary_csv: summary.csv
+structures_dir: structures
+splits_dir: splits
+batch_size: 256
+chunk_txt: null
+summary_chunk_size: 100000
+aligner_kwargs:
+  use_hueckel: false
+  extract_fragment: true
+  all_hs_explicit: true
+  threshold: 4.0

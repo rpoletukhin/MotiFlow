@@ -1,0 +1,6 @@
+checkpoint_path: null
+count_source_path: ${data.processed_data_dir}
+num_samples: 1024
+batch_size: 128
+num_steps: 50
+output_path: outputs/benchmarks/qm9_50_steps.json

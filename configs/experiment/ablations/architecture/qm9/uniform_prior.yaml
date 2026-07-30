@@ -1,0 +1,13 @@
+# @package _global_
+# NeurIPS Table 14.
+defaults:
+  - override /fragmented_data@data: qm9_rings_alpha_01
+  - override /flow: qm9
+  - override /conditioning: none
+  - override /training: qm9
+
+training:
+  name: qm9_uniform_prior
+flow:
+  cat:
+    prior: uniform

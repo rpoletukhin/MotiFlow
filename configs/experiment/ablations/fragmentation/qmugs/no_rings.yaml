@@ -1,0 +1,10 @@
+# @package _global_
+# NeurIPS Tables 11--13.
+defaults:
+  - override /fragmented_data@data: qmugs_no_rings
+  - override /flow: qmugs
+  - override /conditioning: none
+  - override /training: qmugs_fragmentation
+
+training:
+  name: qmugs_fragmentation_no_rings

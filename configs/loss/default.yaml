@@ -1,0 +1,6 @@
+# Joint SE(3) and categorical flow objective.
+trans_loss_weight: 1.0
+rot_loss_weight: 1.0
+rotation_loss_style: geodiff
+cat_loss_weight: 1.0
+separate_rot_loss: false

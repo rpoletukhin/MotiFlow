@@ -1,0 +1,12 @@
+# @package _global_
+# NeurIPS Table 14: "With L_AF3".
+defaults:
+  - override /fragmented_data@data: qm9_rings_alpha_01
+  - override /flow: qm9
+  - override /conditioning: none
+  - override /training: qm9
+
+training:
+  name: qm9_laf3
+loss:
+  rotation_loss_style: af3

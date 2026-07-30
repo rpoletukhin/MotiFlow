@@ -1,0 +1,13 @@
+name: geom
+splits:
+  - train
+  - val
+split_files:
+  train: geom_drugs/train_data_40k.pkl
+  val: geom_drugs/val_data_5k.pkl
+batch_size: 256
+aligner_kwargs:
+  use_hueckel: false
+  extract_fragment: true
+  all_hs_explicit: false
+  threshold: 3.5

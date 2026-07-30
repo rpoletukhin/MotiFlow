@@ -1,0 +1,17 @@
+name: geom_fragmentation
+batch_size: 64
+num_loader_workers: 8
+prefetch_factor: 10
+num_epochs: 70
+learning_rate: 0.0001
+gradient_clip_norm: 1.0
+max_squared_res: 500000
+log_every_steps: 100
+checkpoint_every_steps: 5000
+checkpoint_dir: outputs/checkpoints/${training.name}
+eval_every_steps: 5000
+eval_batch_size: 128
+max_eval_batches: 40
+eval_dir: outputs/training_evaluation/${training.name}
+resume_from: null
+max_steps: null

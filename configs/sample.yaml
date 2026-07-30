@@ -1,0 +1,21 @@
+defaults:
+  - fragmented_data@data: qm9_rings_alpha_01
+  - flow: qm9
+  - optional temperature: null
+  - model: ipa
+  - conditioning: none
+  - sampling: default
+  - training: qm9
+  - loss: default
+  - optional experiment: null
+  - _self_
+
+seed: 0
+runtime:
+  device: auto
+
+hydra:
+  run:
+    dir: outputs/hydra/${now:%Y-%m-%d}/${now:%H-%M-%S}
+  job:
+    chdir: false

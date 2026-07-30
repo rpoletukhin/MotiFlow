@@ -1,0 +1,14 @@
+dataset_name: qmugs
+method_version: motiflow-v1
+processed_data_dir: data/fragmented/qmugs/alpha_0p01
+library_path: ${data.processed_data_dir}/fragment_library.pt
+vocab_size: null
+max_frag_size: 23
+K_max: 78
+S_max: null
+use_frame_augmentation: true
+conditioning_type: ${conditioning.type}
+num_t: 50
+coordinate_scaling: 0.376
+ipa_rbf_stop: 10.0
+rbf_stop: 30.0

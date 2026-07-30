@@ -1,0 +1,9 @@
+name: qm9
+tar_path: "qm9/dsgdb9nsd.xyz.tar.bz2"
+splits_path: "qm9/splits.json"
+batch_size: null
+aligner_kwargs:
+  use_hueckel: true
+  extract_fragment: false
+  all_hs_explicit: true
+  threshold: .inf

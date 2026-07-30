@@ -1,0 +1,5 @@
+# Aligned source used for the dataset statistics in NeurIPS Table 11.
+aligned_path: data/preprocessed/geom/train
+splits: [train]
+generated_paths: []
+output_dir: outputs/analysis/${data.dataset_name}_${data.method_version}

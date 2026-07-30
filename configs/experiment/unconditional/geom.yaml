@@ -1,0 +1,15 @@
+# @package _global_
+# NeurIPS Tables 2 and 6.
+defaults:
+  - override /fragmented_data@data: geom_rings_alpha_01
+  - override /flow: geom
+  - override /conditioning: none
+  - override /training: geom
+
+training:
+  name: geom_unconditional
+flow:
+  cat:
+    min_temperature: 1.0
+    max_temperature: 1.0
+    stochasticity: 1.5

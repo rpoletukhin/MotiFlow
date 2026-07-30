@@ -1,0 +1,34 @@
+{
+    "dataset": "geom-drugs",
+    "schema_version": "1.0",
+    "source": {
+        "distribution": "GeoDiff preprocessed GEOM-Drugs",
+        "upstream_split_seed": 2021,
+        "upstream_selection": {
+            "selected_molecules": 50000,
+            "molecule_split": "80/10/10",
+            "conformers_per_molecule": 5,
+            "conformer_selection": "highest Boltzmann weight"
+        }
+    },
+    "splits": {
+        "train": {
+            "file": "data/geom_drugs/train_data_40k.pkl",
+            "sha256": "e3897e7527e4dd8e299fd44540023da86c0bf1d6c908f45e8ad4286725f6f32e",
+            "molecule_count": 39990,
+            "conformer_count": 199950,
+            "missing_topology_count": 0
+        },
+        "val": {
+            "file": "data/geom_drugs/val_data_5k.pkl",
+            "sha256": "7b1181faa49fabb386762b7d9d5f9c3136709956e896b15f16f02edc4afc2182",
+            "molecule_count": 5000,
+            "conformer_count": 25000,
+            "missing_topology_count": 0
+        }
+    },
+    "notes": {
+        "missing_train_molecules": 10,
+        "test_split": "Not present in the paper workspace and not used by the reported MotiFlow experiments."
+    }
+}

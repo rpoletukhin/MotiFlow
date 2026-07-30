@@ -1,0 +1,17 @@
+defaults:
+  - dataset: qm9
+  - _self_
+
+method_version: motiflow-v1
+data_root: ./data
+output_root: ./data/preprocessed
+
+processing:
+  num_workers: 4
+  task_timeout_seconds: 120
+
+seed: 0
+
+hydra:
+  job:
+    chdir: false

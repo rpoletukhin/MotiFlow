@@ -1,0 +1,8 @@
+dataset: qm9
+generated_paths: []
+library_path: data/fragmented/qm9/alpha_0p1/fragment_library.pt
+reference_path: data/preprocessed/qm9/train_aligned.pt
+compute_properties: true
+compute_strain: true
+save_sdf: true
+output_dir: outputs/evaluation/qm9

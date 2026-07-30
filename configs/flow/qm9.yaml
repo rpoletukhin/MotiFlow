@@ -1,0 +1,17 @@
+flow_trans: true
+flow_rot: true
+flow_cat: true
+endpoint_epsilon: 0.01
+nu_se3: null
+nu_cat: null
+r3:
+  coordinate_scaling: ${data.coordinate_scaling}
+so3:
+  endpoint_epsilon: 0.01
+cat:
+  prior: masked
+  sampling_method: multinomial
+  min_temperature: 1.0
+  max_temperature: 1.5
+  stochasticity: 0.0
+  vocab_size: ${data.vocab_size}

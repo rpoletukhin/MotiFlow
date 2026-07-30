@@ -1,0 +1,15 @@
+# @package _global_
+# NeurIPS Tables 3 and 10.
+defaults:
+  - override /fragmented_data@data: qm9_rings_alpha_01
+  - override /flow: qm9
+  - override /conditioning: composition
+  - override /training: qm9
+
+training:
+  name: qm9_composition
+loss:
+  rotation_loss_style: naive
+sampling:
+  condition_path: data/conditions/qm9/composition_eval_set.pt
+  evaluate_condition: true

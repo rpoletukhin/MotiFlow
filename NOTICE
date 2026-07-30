@@ -1,0 +1,10 @@
+MotiFlow contains and will contain adapted code descended from FoldFlow:
+
+  FoldFlow: https://github.com/DreamFold/FoldFlow
+  Copyright and attribution belong to the respective FoldFlow authors.
+  Upstream license: Creative Commons Attribution-NonCommercial 4.0 International
+  https://creativecommons.org/licenses/by-nc/4.0/legalcode
+
+MotiFlow also inherits concepts and utilities from FrameDiff through FoldFlow.
+The complete upstream attribution and license text must accompany any public
+distribution. This notice does not replace the upstream license.

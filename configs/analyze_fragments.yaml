@@ -1,0 +1,10 @@
+defaults:
+  - fragmented_data@data: geom_rings_alpha_01
+  - analysis: geom
+  - _self_
+
+hydra:
+  run:
+    dir: outputs/hydra/${now:%Y-%m-%d}/${now:%H-%M-%S}
+  job:
+    chdir: false
