@@ -10,8 +10,7 @@
 
 <p align="center">
   <a href="https://arxiv.org/abs/2601.16955"><img src="https://img.shields.io/badge/arXiv-2601.16955-b31b1b.svg" alt="arXiv"></a>
-  <a href="https://genbio-workshop.github.io/2026/"><img src="https://img.shields.io/badge/ICML%202026-GenBio%20Workshop-5b43c6.svg" alt="ICML 2026 GenBio Workshop"></a>
-  <img src="https://img.shields.io/badge/Blog-Coming%20Soon-lightgrey.svg" alt="Blog coming soon">
+  <a href="https://openreview.net/forum?id=10JJ9uxd6J"><img src="https://img.shields.io/badge/NeurIPS-2026-5b43c6.svg" alt="NeurIPS 2026"></a>
   <a href="https://pytorch.org/"><img src="https://img.shields.io/badge/PyTorch-2.1-EE4C2C.svg?logo=pytorch&logoColor=white" alt="PyTorch 2.1"></a>
   <a href="https://developer.nvidia.com/cuda-toolkit"><img src="https://img.shields.io/badge/CUDA-12.1-76B900.svg?logo=nvidia&logoColor=white" alt="CUDA 12.1"></a>
 </p>
@@ -28,10 +27,8 @@
 >
 > **🏛️ Affiliations:**<br>
 > [Technical University of Munich](https://www.tum.de/en/) · [Munich Center for Machine Learning](https://mcml.ai/) · [Munich Data Science Institute](https://www.mdsi.tum.de/en/mdsi/home/)
->
-> **✍️ Blog:** Coming Soon
 
-This repository is the **official implementation** of [*3D Molecule Generation from Rigid Motifs via*](https://arxiv.org/abs/2601.16955) $\mathrm{SE}(3)$ [*Flows*](https://arxiv.org/abs/2601.16955), accepted as a poster at the [**ICML 2026 Workshop on Generative and Agentic AI for Biology (GenBio)**](https://openreview.net/forum?id=7Ncv8Pt7rS).
+This repository is the **official implementation** of [*3D Molecule Generation from Rigid Motifs via*](https://arxiv.org/abs/2601.16955) $\mathrm{SE}(3)$ [*Flows*](https://arxiv.org/abs/2601.16955), accepted as a poster at [**NeurIPS 2026**](https://openreview.net/forum?id=10JJ9uxd6J). An earlier version was presented at the [ICML 2026 Workshop on Generative and Agentic AI for Biology (GenBio)](https://openreview.net/forum?id=7Ncv8Pt7rS).
 
 ---
 
@@ -429,9 +426,9 @@ If MotiFlow is useful in your research, please cite:
   poletukhin2026d,
   title     = {3D Molecule Generation from Rigid Motifs via $\mathrm{SE}(3)$ Flows},
   author    = {Roman Poletukhin and Marcel Kollovieh and Eike Eberhard and Stephan G{\"u}nnemann},
-  booktitle = {The 2026 Workshop on Generative and Agentic AI for Biology},
+  booktitle = {The Fortieth Annual Conference on Neural Information Processing Systems},
   year      = {2026},
-  url       = {https://openreview.net/forum?id=7Ncv8Pt7rS}
+  url       = {https://openreview.net/forum?id=10JJ9uxd6J}
 }
 ```
 
