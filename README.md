@@ -26,7 +26,7 @@
 > **👥 Authors:** [Roman Poletukhin](https://rpoletukhin.github.io/) · [Marcel Kollovieh](https://marcelkollovieh.com/) · [Eike Eberhard](https://eseberhard.github.io/index.html) · [Stephan Günnemann](https://www.cs.cit.tum.de/daml/startseite/)
 >
 > **🏛️ Affiliations:**<br>
-> [Technical University of Munich](https://www.tum.de/en/) · [Munich Center for Machine Learning](https://mcml.ai/) · [Munich Data Science Institute](https://www.mdsi.tum.de/en/mdsi/home/)
+> [Technical University of Munich](https://www.tum.de/en/) · [Munich Center for Machine Learning](https://mcml.ai/) · [Munich Data Science Institute](https://www.mdsi.tum.de/en/mdsi/home/) · [Imperial College London](https://www.imperial.ac.uk/)
 
 This repository is the **official implementation** of [*3D Molecule Generation from Rigid Motifs via*](https://arxiv.org/abs/2601.16955) $\mathrm{SE}(3)$ [*Flows*](https://arxiv.org/abs/2601.16955), accepted as a poster at [**NeurIPS 2026**](https://openreview.net/forum?id=10JJ9uxd6J). An earlier version was presented at the [ICML 2026 Workshop on Generative and Agentic AI for Biology (GenBio)](https://openreview.net/forum?id=7Ncv8Pt7rS).
 
