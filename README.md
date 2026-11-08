@@ -11,6 +11,7 @@
 <p align="center">
   <a href="https://arxiv.org/abs/2601.16955"><img src="https://img.shields.io/badge/arXiv-2601.16955-b31b1b.svg" alt="arXiv"></a>
   <a href="https://openreview.net/forum?id=10JJ9uxd6J"><img src="https://img.shields.io/badge/NeurIPS-2026-5b43c6.svg" alt="NeurIPS 2026"></a>
+  <a href="https://rpoletukhin.github.io/projects/motiflow/"><img src="https://img.shields.io/badge/Project-Page-0b6bcb.svg" alt="Project page"></a>
   <a href="https://pytorch.org/"><img src="https://img.shields.io/badge/PyTorch-2.1-EE4C2C.svg?logo=pytorch&logoColor=white" alt="PyTorch 2.1"></a>
   <a href="https://developer.nvidia.com/cuda-toolkit"><img src="https://img.shields.io/badge/CUDA-12.1-76B900.svg?logo=nvidia&logoColor=white" alt="CUDA 12.1"></a>
 </p>
@@ -28,6 +29,8 @@
 > **🏛️ Affiliations:**<br>
 > [Technical University of Munich](https://www.tum.de/en/) · [Munich Center for Machine Learning](https://mcml.ai/)<br>
 > [Munich Data Science Institute](https://www.mdsi.tum.de/en/mdsi/home/) · [Imperial College London](https://www.imperial.ac.uk/)
+>
+> **🌐 Project page:** [rpoletukhin.github.io/projects/motiflow](https://rpoletukhin.github.io/projects/motiflow/)
 
 This repository is the **official implementation** of [*3D Molecule Generation from Rigid Motifs via*](https://arxiv.org/abs/2601.16955) $\mathrm{SE}(3)$ [*Flows*](https://arxiv.org/abs/2601.16955), accepted as a poster at [**NeurIPS 2026**](https://openreview.net/forum?id=10JJ9uxd6J). An earlier version was presented at the [ICML 2026 Workshop on Generative and Agentic AI for Biology (GenBio)](https://openreview.net/forum?id=7Ncv8Pt7rS).
 
