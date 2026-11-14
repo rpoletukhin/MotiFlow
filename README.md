@@ -20,7 +20,7 @@
   <img src="assets/sampling_process.gif" width="800" alt="MotiFlow sampling process">
 </p>
 
-<p align="center"><em>✨ MotiFlow jointly generates rigid-motif identities and their poses, then reconstructs the resulting molecule at atom level. In this example, discrete FM uses a uniform prior.</em></p>
+<p align="center"><em>✨ MotiFlow jointly generates rigid-motif identities and their poses: motif types start masked and are revealed by a discrete flow while their SE(3) frames flow from noise, then the molecule is reconstructed at atom level.</em></p>
 
 > **📄 Paper:** **3D Molecule Generation from Rigid Motifs via** $\mathrm{SE}(3)$ **Flows**
 >
@@ -168,7 +168,7 @@ OpenBabel is installed through Conda because its Python bindings are not reliabl
   <img src="assets/rigid_motif_representation.gif" width="800" alt="Rigid-motif fragmentation and representation">
 </p>
 
-<p align="center"><em>🧩 Molecules are decomposed into a frequency-aware hierarchy of rigid ring systems, rings, bonds, and anchored atom motifs.</em></p>
+<p align="center"><em>🧩 Molecules are decomposed into a frequency-aware hierarchy of rigid ring systems, rings, bonds, and anchored atom motifs; each motif becomes a token with an SE(3) frame.</em></p>
 
 MotiFlow supports QM9, GEOM-Drugs, and QMugs. Only the QMugs split is introduced by this work; QM9 and GEOM-Drugs reuse established public splits.
 
